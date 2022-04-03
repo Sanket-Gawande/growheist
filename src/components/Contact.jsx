@@ -18,19 +18,19 @@ const Contact = () => {
           <h4 className="mt-4 mb-2  text-slate-600">Full name</h4>
           <input
             type="text"
-            className="input  outline-none py-1 px-4 border rounded-md"
+            className="input  w-full outline-none py-1 px-4 border rounded-md"
             required
           />
           <h4 className="mt-4 mb-2  text-slate-600">Email address</h4>
           <input
             type="text"
-            className="input  outline-none py-1 px-4 border rounded-md"
+            className="input w-full  outline-none py-1 px-4 border rounded-md"
             required
           />
           <h4 className="mt-4 mb-2  text-slate-600">Phone number</h4>
           <input
             type="text"
-            className="input  outline-none py-1 px-4 border rounded-md"
+            className="input w-full  outline-none py-1 px-4 border rounded-md"
             pattern="\+?\d{0,4}?\d{10}\"
             required
           />
